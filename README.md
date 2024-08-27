@@ -1,12 +1,12 @@
 # How To Build More Accessible Websites with Wagtail
 
-Welcome to the repository for our PyCon US 2024 workshop! Here you'll find all the code for our workshop and other resources to help you build more accessible websites.
+Welcome to the repository for our DjangoCon US 2024 workshop! Here you'll find all the code for our workshop and other resources to help you build more accessible websites.
 
 Why teach this workshop? Well, because the state of accessibility on the Internet is pretty dismal and the more folks who learn how to build websites with accessibility practices built in from day one, the better.
 
-After the workshop, we'll share our slides here as well along with any key things that come up during the workshop as well as Q&A
+After the workshop, we'll share our slides here as well along with any key things that come up during the workshop as well as Q&A.
 
-We'll be using [Wagtail CMS](https://wagtail.org) for this workshop. If you enjoy coding with Wagtail, then please consider signing up for [our newsletter](https://wagtail.org/newsletter) or join us at one of our two live Wagtail Space events coming up in June 2024. See which Wagtail Space event is [closer to you](https://www.wagtail.space/).
+We'll be using [Wagtail CMS](https://wagtail.org) for this workshop. If you enjoy coding with Wagtail, then please consider signing up for [our newsletter](https://wagtail.org/newsletter).
 
 ## Tutorial Steps
 
