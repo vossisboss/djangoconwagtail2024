@@ -41,18 +41,20 @@
     <body class="{% block body_class %}{% endblock %}">
         {% wagtailuserbar %}
 
-        <header class="header">
-            My Wagtail Blog
-        </header>
+        <div class="grid-container">
+            <header class="header">
+                My Wagtail Blog
+            </header>
 
-        <main id="main">
-            {% block content %}{% endblock %}
-        </main>
+            <main id="main">
+                {% block content %}{% endblock %}
+            </main>
 
-        <footer>
-            <h2>{{ current_site.site_name }}</h2>
-            © 2024 Firstname Lastname
-        </footer>
+            <footer>
+                <h2>{{ current_site.site_name }}</h2>
+                © 2024 Firstname Lastname
+            </footer>
+        </div>
 
         {# Global javascript #}
         <script type="text/javascript" src="{% static 'js/myblog.js' %}"></script>
