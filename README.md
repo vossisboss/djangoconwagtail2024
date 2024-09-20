@@ -226,4 +226,4 @@ What we went through above is the current best practice for handling image alt t
 
 ---
 
-[Continue to Step 8](https://github.com/vossisboss/pyconwagtail2024/tree/step-8)
+[Continue to Step 8](https://github.com/vossisboss/djangoconwagtail2024/tree/step-8)
