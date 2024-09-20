@@ -49,4 +49,4 @@ We'll include some instructions on how to add the custom model at the end, just 
 
 ---
 
-[Continue to step 4](https://github.com/vossisboss/pyconwagtail2024/tree/step-4)
+[Continue to step 4](https://github.com/vossisboss/djangoconwagtail2024/tree/step-4)
