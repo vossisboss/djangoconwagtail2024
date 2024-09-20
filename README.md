@@ -220,4 +220,4 @@ We're now done with the basic Wagtail set up and ready to move on to making our 
 
 * * *
 
-[Continue to step 5](https://github.com/vossisboss/pyconwagtail2024/tree/step-5)
+[Continue to step 5](https://github.com/vossisboss/djangoconwagtail2024/tree/step-5)
