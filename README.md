@@ -6,11 +6,13 @@ If you're not familiar, alt text is a way to provide a _textual alternative_ of 
 
 The key question to ask yourself when considering alt text for an image is, "What description of this image would be useful to someone who's hearing this page read aloud?" And bear in mind that the answer may be _none._ Decorative images do not need alt text if hearing a description of them would not be useful. However, all `img` elements should have an `alt` attribute, and it should be left empty if the image is decorative.
 
-You can find many many articles on when and how to use alt text, but let's discuss how to implement it in Wagtail. Note: The stock implementation of alt text in Wagtail is under active development, so we'll try to give the best advice we can as of the date of this tutorial.
+You can find many many articles on when and how to use alt text, but let's discuss how to implement it in Wagtail.
+
+**Note:** The stock implementation of alt text in Wagtail is under active development, so we'll try to give the best advice we can as of the date of this tutorial. Check the end of this README for a preview of what's to come, and how you can help!
 
 Wagtail has never had a field for alt text in its default image model, but as we noted earlier, it will default to using an image's title for the alt text if you render an image with Wagtail's standard `{% image %}` template tag. This isn't great, because the title you want to see in the admin interface may have no relation to useful alt text.
 
-Our current recommendation is three-fold:
+Our current recommendation has three parts to it:
 
 1. Add an default alt text field to a custom image model, which we already did in step 3, and use that instead of the image's title field
 2. Add alt text fields and "is decorative" checkboxes alongside image choosers in the context of your page content
@@ -221,7 +223,11 @@ Much cleaner! Conventional wisdom in the Django community encourages moving as m
 
 ## The future of alt text in Wagtail
 
-What we went through above is the current best practice for handling image alt text in Wagtail, but there is an active effort underway to further improve Wagtail's default alt handling. We have just launched a Google Summer of Code project to implement [RFC 51](https://github.com/wagtail/rfcs/pull/51), focused on providing a default alt text field on the image model, an easy way to hook that up to an AI tool for automatically populating it using a large vision model, and an easier way to add alt text in context, without creating your own custom image block on every site. Stay tuned!
+What we went through above is the current best practice for handling image alt text in Wagtail, but there is an active effort underway to further improve Wagtail's default alt handling. We have recently been engaged in a Google Summer of Code project with our wonderful intern, Chiemezuo, to implement some alt text improvements first proposed in [RFC 51](https://github.com/wagtail/rfcs/pull/51) and fully adopted in [RFC 97](https://github.com/wagtail/rfcs/pull/97). Chiemezuo's work is focused on providing [a description field on the core image model](https://github.com/wagtail/wagtail/pull/11792) and [a new built-in `ImageBlock`](https://github.com/wagtail/wagtail/pull/11791) for adding alt text in context.
+
+Once these new features are released – potentially as soon as Wagtail 6.3, due in November – that new `ImageBlock` should eliminate the need for most Wagtail sites to create their own, and the new description field would be used as backup alt text when none is provided in the image block, as well as providing alt text for Wagtail users who interact with the Wagtail admin using a screen reader.
+
+If you're interested in contributing to this effort and helping it ship sooner, please check out the two pull requests linked above and offer your feedback!
 
 
 ---
