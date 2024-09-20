@@ -70,4 +70,4 @@ Returning to the empty heading error, this one can be solved in the Wagtail admi
 
 Now that we have tried out the Wagtail accessibility checker and fixed some issues that it's reported, let's dig deeper on some of the most common accessibility issues that we see out there.
 
-[Continue to Step 6](https://github.com/vossisboss/pyconwagtail2024/tree/step-6)
+[Continue to Step 6](https://github.com/vossisboss/djangoconwagtail2024/tree/step-6)
