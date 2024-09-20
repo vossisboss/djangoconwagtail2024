@@ -184,4 +184,4 @@ A couple of notes that we won't address in this tutorial, but would be good for 
 
 Our custom validation will help editors ensure they are using headings accessibly, but don't forget to make sure that any heading elements that are hardcoded into templates also follow a logical hierarchy!
 
-[Continue to Step 7](https://github.com/vossisboss/pyconwagtail2024/tree/step-7)
+[Continue to Step 7](https://github.com/vossisboss/djangoconwagtail2024/tree/step-7)
