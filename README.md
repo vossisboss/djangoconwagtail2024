@@ -88,4 +88,4 @@ CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io']
 
 * * *
 
-[Continue to step 2](https://github.com/vossisboss/pyconwagtail2024/tree/step-2)
+[Continue to step 2](https://github.com/vossisboss/djangoconwagtail2024/tree/step-2)
