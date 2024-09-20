@@ -172,4 +172,4 @@ This structure will help you stay organized by keeping all of your templates in 
 
 ---
 
-[Continue to step 3](https://github.com/vossisboss/pyconwagtail2024/tree/step-3)
+[Continue to step 3](https://github.com/vossisboss/djangoconwagtail2024/tree/step-3)
