@@ -170,7 +170,7 @@ Another potential use of custom validation for alt text is preventing the entry 
         return result
 ```
 
-There are more potential ways one could think about to validate whether entered alt text is good or not, but that is probably the biggest one.
+There are more potential ways one could think about to validate whether entered alt text is good or not. In fact, [Wagtail 6.2 (released in August) added an alt text quality check](https://docs.wagtail.org/en/stable/releases/6.2.html#alt-text-accessibility-check) to the default accessibility checker rules, looking for alt text that appears to be a filename or that includes underscores. It doesn't go as far as I did above, because our default accessibility checker rules are implemented with a focus on preventing false positives, and one could come up with plausible reasons why the phrases I listed above would be appropriate in certain contexts.
 
 
 ## Using `StructValue` to simplify template logic
