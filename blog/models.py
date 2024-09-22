@@ -59,7 +59,7 @@ class ImageGalleryPage(Page):
     ]
 
 
-class ImageGalleryImageImage(Orderable):
+class ImageGalleryImage(Orderable):
     page = ParentalKey(
         ImageGalleryPage, on_delete=models.CASCADE, related_name="gallery_images"
     )
